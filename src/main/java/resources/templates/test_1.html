@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset="EUC-KR">
-<title>Insert title here</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
+    <h1>i18n 테스트</h1>
 
+    <p th:text="#{product}"></p>
+    <p th:text="#{product.category}"></p>
 </body>
 </html>
